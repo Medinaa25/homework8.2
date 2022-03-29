@@ -11,13 +11,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/container1"
         android:layout_width="match_parent"
-        android:layout_height="0dp">
+        android:layout_height="@dimen/pad_end">
 
         <TextView
             android:id="@+id/tv_result"
-            android:layout_marginHorizontal="36dp"
+            android:layout_marginHorizontal="@dimen/marg_hor"
             android:layout_gravity="bottom|end"
-            android:textSize="80sp"
+            android:textSize="@dimen/text_sixe"
             android:ellipsize="end"
             android:maxLines="1"
             android:textColor="@color/white"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:paddingVertical="6dp"
+            android:paddingVertical="@dimen/padding_ver"
             android:gravity="center"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -51,14 +51,14 @@
                 android:text="+/-"
                 android:id="@+id/plus_minus"
                 android:onClick="OnNumberClick"
-                android:layout_marginHorizontal="18dp"
+                android:layout_marginHorizontal="@dimen/page_margin"
                 style="@style/Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
                 android:text="%"
                 android:id="@+id/btn_procent"
                 android:onClick="OnProcentClick"
-                android:layout_marginEnd="18dp"
+                android:layout_marginEnd="@dimen/page_margin"
                 style="@style/Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
@@ -69,7 +69,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:paddingVertical="6dp"
+            android:paddingVertical="@dimen/padding_ver"
             android:gravity="center"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -85,14 +85,14 @@
                 android:text="8"
                 android:onClick="OnNumberClick"
                 android:id="@+id/btn_eight"
-                android:layout_marginHorizontal="18dp"
+                android:layout_marginHorizontal="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
                 android:text="9"
                 android:onClick="OnNumberClick"
                 android:id="@+id/btn_nine"
-                android:layout_marginEnd="18dp"
+                android:layout_marginEnd="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
@@ -103,7 +103,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:paddingVertical="6dp"
+            android:paddingVertical="@dimen/padding_ver"
             android:gravity="center"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -119,14 +119,14 @@
                 android:text="5"
                 android:onClick="OnNumberClick"
                 android:id="@+id/btn_five"
-                android:layout_marginHorizontal="18dp"
+                android:layout_marginHorizontal="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
                 android:text="6"
                 android:onClick="OnNumberClick"
                 android:id="@+id/btn_six"
-                android:layout_marginEnd="18dp"
+                android:layout_marginEnd="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
@@ -137,7 +137,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:paddingVertical="6dp"
+            android:paddingVertical="@dimen/padding_ver"
             android:gravity="center"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -153,14 +153,14 @@
                 android:text="2"
                 android:id="@+id/btn_two"
                 android:onClick="OnNumberClick"
-                android:layout_marginHorizontal="18dp"
+                android:layout_marginHorizontal="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
                 android:text="3"
                 android:onClick="OnNumberClick"
                 android:id="@+id/btn_three"
-                android:layout_marginEnd="18dp"
+                android:layout_marginEnd="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton
@@ -171,7 +171,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:paddingVertical="6dp"
+            android:paddingVertical="@dimen/padding_ver"
             android:gravity="center"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -181,11 +181,11 @@
                 android:text="0"
                 android:onClick="OnNumberClick"
                 android:id="@+id/btn_zero"
-                android:paddingEnd="0dp"
-                android:paddingStart="30dp"
+                android:paddingEnd="@dimen/pad_end"
+                android:paddingStart="@dimen/padding_st"
                 android:textAlignment="textStart"
-                android:layout_marginEnd="16dp"
-                android:layout_width="158dp"
+                android:layout_marginEnd="@dimen/page_margin"
+                android:layout_width="@dimen/zero_width"
                 style="@style/Dark.Gray.Button"/>
 
 
@@ -193,7 +193,7 @@
                 android:text="."
                 android:id="@+id/btn_point"
                 android:onClick="OnNumberClick"
-                android:layout_marginEnd="18dp"
+                android:layout_marginEnd="@dimen/page_margin"
                 style="@style/Dark.Gray.Button"/>
 
             <com.google.android.material.button.MaterialButton

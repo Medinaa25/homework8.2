@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="page_margin">18dp</dimen>
+    <dimen name="padding_ver">6dp</dimen>
+    <dimen name="zero_width">158dp</dimen>
+    <dimen name="padding_st">30dp</dimen>
+    <dimen name="pad_end">0dp</dimen>
+    <dimen name="marg_hor">36dp</dimen>
+    <dimen name="text_sixe">80sp</dimen>
+</resources>
