@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultActivity"
+    android:background="@color/white_2">
+
+    <LinearLayout
+        android:gravity="center"
+        android:paddingStart="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:background = "@color/dark"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="start"
+            android:src="@drawable/ic_white_dehaze"
+            android:layout_width="@dimen/layout"
+            android:layout_height="@dimen/layout"/>
+
+        <ImageView
+            android:layout_marginHorizontal="@dimen/horizontal"
+            android:src="@drawable/ic__filter_flower"
+            android:layout_width="@dimen/layout"
+            android:layout_height="@dimen/layout"/>
+
+        <ImageView
+            android:src="@drawable/ic_search"
+            android:layout_width="@dimen/layout"
+            android:layout_height="@dimen/layout"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/destroy_activity"
+        app:cornerRadius="@dimen/radius"
+        android:padding="@dimen/padding_red"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+        android:text="Destroy Activities"
+        app:layout_constraintTop_toBottomOf="@id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/TextView"
+        app:layout_constraintTop_toBottomOf="@id/container1" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@color/white"
+        android:paddingTop="@dimen/padding_st"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginEnd="@dimen/corner_radius"
+            style="@style/SmallButton"
+            android:text="Country of Origin" />
+
+        <Button
+            style="@style/SmallButton"
+            android:text="Product Category" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:paddingHorizontal="@dimen/radius"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="@dimen/radius"
+            style="@style/TextView"
+            android:text="Policies"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/SecondButton"
+            android:text="Policy" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/SecondButton"
+            android:text="Product Category" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/SecondButton"
+            android:text="Origin Country"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/SecondButton"
+            android:text="Brand"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

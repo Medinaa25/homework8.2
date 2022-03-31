@@ -7,25 +7,37 @@
     tools:context=".MainActivity"
     android:background="@color/black">
 
+
     <FrameLayout
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/container1"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/pad_end">
+        android:layout_height="@dimen/pad_end"
+        app:layout_constraintBottom_toTopOf="@id/container1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/result_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
+            android:backgroundTint="@color/orange"
+            android:paddingHorizontal="@dimen/padding_st"
+            android:text="Result"
+            android:textColor="@color/white"
+            android:textSize="@dimen/result_size"
+            app:cornerRadius="@dimen/corner_radius" />
 
         <TextView
             android:id="@+id/tv_result"
-            android:layout_marginHorizontal="@dimen/marg_hor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:textSize="@dimen/text_sixe"
+            android:layout_marginHorizontal="@dimen/marg_hor"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textColor="@color/white"
             android:text="0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
     </FrameLayout>
-
 
     <LinearLayout
         android:id="@+id/container1"

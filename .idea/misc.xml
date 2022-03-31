@@ -3,7 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1515" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/bg_splash.xml" value="0.1515" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic__filter_flower.xml" value="0.1515" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic_arrow.xml" value="0.1375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic_arrow_right.xml" value="0.1375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1515" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic_search.xml" value="0.1515" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/drawable/ic_white_dehaze.xml" value="0.1515" />
         <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/layout/activity_result.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1515" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lessons/homework7/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1515" />
       </map>
     </option>
   </component>
