@@ -139,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
                 if (tvResult.getText().toString().equals("0")) {
                     tvResult.setText("9");
                 }else if (isOperationClick){
+                    tvResult.setText("9");
                 }else{
                     tvResult.append("9");
                 }
